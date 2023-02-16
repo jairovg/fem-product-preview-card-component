@@ -7,6 +7,13 @@
   line-height: $fem-text-body-100-height;
   font-size: $fem-text-body-100-size;
 }
+%fem-text-button-primary {
+  font-family: $fem-text-button-primary-family;
+  font-style: $fem-text-button-primary-style;
+  font-weight: $fem-text-button-primary-weight;
+  line-height: $fem-text-button-primary-height;
+  font-size: $fem-text-button-primary-size;
+}
 %fem-text-eyebrow-100 {
   font-family: $fem-text-eyebrow-100-family;
   font-style: $fem-text-eyebrow-100-style;

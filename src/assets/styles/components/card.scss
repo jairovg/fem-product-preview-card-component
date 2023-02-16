@@ -93,4 +93,20 @@
       @extend %fem-text-body-100;
     }
   }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    column-gap: $fem-offset-100;
+  }
+
+  &__icon {
+    width: 14px;
+    height: $fem-offset-200;
+    background-color: var(--fem-color-fill-icon-primary-rest);
+
+    &--cart {
+      mask-image: url("@/assets/icons/icon-cart.svg");
+    }
+  }
 }

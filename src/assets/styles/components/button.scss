@@ -1,0 +1,26 @@
+@use "@/assets/styles/tokens/scss/mixins" as *;
+@use "@/assets/styles/tokens/scss/tokens" as *;
+@use "@/assets/styles/mixins" as *;
+
+.button {
+  cursor: pointer;
+
+  &__primary {
+    border-radius: $fem-border-100;
+    padding: $fem-offset-200;
+    background-color: var(--fem-color-background-button-primary-rest);
+    color: var(--fem-color-text-button-primary-rest);
+    box-shadow: inset 0 0 0 2px var(--fem-color-border-button-primary-rest);
+
+    @extend %fem-text-button-primary;
+    @extend %color-animation;
+
+    &:focus {
+      box-shadow: inset 0 0 0 2px var(--fem-color-border-button-primary-focus);
+    }
+
+    &:is(:hover, :focus) {
+      background-color: var(--fem-color-background-button-primary-active);
+    }
+  }
+}
