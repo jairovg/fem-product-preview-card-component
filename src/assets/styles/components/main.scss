@@ -1,0 +1,11 @@
+@use "@/assets/styles/tokens/scss/tokens" as *;
+
+.main {
+  width: 91.46%;
+  max-width: 600px;
+  margin-top: 28px;
+
+  @media screen and (min-width: $fem-breakpoint-sm) {
+    margin-top: 175px;
+  }
+}

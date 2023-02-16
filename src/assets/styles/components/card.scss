@@ -1,0 +1,7 @@
+@use "@/assets/styles/tokens/scss/tokens" as *;
+.card {
+  border-radius: $fem-border-200;
+  background-color: var(--fem-color-background-secondary);
+  color: var(--fem-color-text-primary);
+
+}

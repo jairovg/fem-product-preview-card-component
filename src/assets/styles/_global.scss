@@ -1,6 +1,8 @@
 @use "tokens/scss/mixins" as *;
 
 body {
+  display: flex;
+  justify-content: center;
   background-color: var(--fem-color-background-primary);
   color: var(--fem-color-text-primary);
 
