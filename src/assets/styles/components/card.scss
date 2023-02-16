@@ -65,4 +65,32 @@
 
     @extend %fem-text-heading-serif-100;
   }
+
+  &__body {
+    display: grid;
+    row-gap: $fem-offset-200;
+    padding: 0 $fem-offset-400 $fem-offset-400;
+
+    @media screen and (min-width: $fem-breakpoint-sm) {
+      row-gap: $fem-offset-500;
+      padding: 0 $fem-offset-600 $fem-offset-600;
+    }
+  }
+
+  &__price {
+    display: flex;
+    column-gap: $fem-offset-300;
+    color: var(--fem-color-text-tertiary);
+
+    @extend %fem-text-heading-serif-100;
+
+    &--old {
+      align-self: center;
+      text-decoration: line-through;
+      font-size: $fem-text-body-100-size;
+      color: var(--fem-color-text-primary);
+
+      @extend %fem-text-body-100;
+    }
+  }
 }
