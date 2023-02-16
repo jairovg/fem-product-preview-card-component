@@ -1,0 +1,9 @@
+@use "tokens" as *;
+
+%fem-text-body-100 {
+  font-family: $fem-text-body-100-family;
+  font-style: $fem-text-body-100-style;
+  font-weight: $fem-text-body-100-weight;
+  line-height: $fem-text-body-100-height;
+  font-size: $fem-text-body-100-size;
+}
