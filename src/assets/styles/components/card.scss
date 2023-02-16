@@ -1,7 +1,54 @@
 @use "@/assets/styles/tokens/scss/tokens" as *;
+@use "@/assets/styles/mixins" as *;
 .card {
   border-radius: $fem-border-200;
   background-color: var(--fem-color-background-secondary);
   color: var(--fem-color-text-primary);
 
+  @media screen and (min-width: $fem-breakpoint-sm) {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    > * {
+      grid-column: 2;
+    }
+  }
+
+  &__header {
+    display: grid;
+    row-gap: $fem-offset-100;
+    padding: $fem-offset-400 $fem-offset-400 $fem-offset-200;
+
+    @media screen and (min-width: $fem-breakpoint-sm) {
+      row-gap: $fem-offset-300;
+      padding: $fem-offset-600 $fem-offset-600 $fem-offset-400;
+    }
+  }
+
+  &__picture {
+    margin: -#{$fem-offset-400} -#{$fem-offset-400} 0;
+
+    @media screen and (min-width: $fem-breakpoint-sm) {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-100%);
+      width: 50%;
+      margin: 0;
+      font-size: 0;
+    }
+  }
+
+  &__image {
+    height: 100%;
+    border-radius: $fem-border-200 $fem-border-200 0 0;
+
+    @extend %image-cover;
+
+    @media screen and (min-width: $fem-breakpoint-sm) {
+      border-radius: $fem-border-200 0 0 $fem-border-200;
+    }
+  }
 }
