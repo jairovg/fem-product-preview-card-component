@@ -1,5 +1,7 @@
+@use "@/assets/styles/tokens/scss/mixins" as *;
 @use "@/assets/styles/tokens/scss/tokens" as *;
 @use "@/assets/styles/mixins" as *;
+
 .card {
   border-radius: $fem-border-200;
   background-color: var(--fem-color-background-secondary);
@@ -50,5 +52,17 @@
     @media screen and (min-width: $fem-breakpoint-sm) {
       border-radius: $fem-border-200 0 0 $fem-border-200;
     }
+  }
+
+  &__eyebrow {
+    text-transform: uppercase;
+
+    @extend %fem-text-eyebrow-100;
+  }
+
+  &__title {
+    color: var(--fem-color-text-secondary);
+
+    @extend %fem-text-heading-serif-100;
   }
 }
