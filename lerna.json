@@ -1,5 +1,10 @@
 {
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
+  "command": {
+    "version": {
+      "allowBranch": "main"
+    }
+  },
   "useWorkspaces": true,
   "version": "independent"
 }

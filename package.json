@@ -5,7 +5,20 @@
     "packages/*",
     "apps/*"
   ],
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
   "devDependencies": {
-    "lerna": "^6.5.1"
+    "@commitlint/cli": "^17.4.4",
+    "@commitlint/config-conventional": "^17.4.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "lerna": "^6.5.1",
+    "husky": "^8.0.3"
+  },
+  "scripts": {
+    "commit": "cz",
+    "prepare": "husky install"
   }
 }
