@@ -1,0 +1,32 @@
+{
+  "config": {
+    "color": {
+      "primary": {
+        "cyan": {
+          "dark": {
+            "value": "#3d8168"
+          }
+        },
+        "cream": {
+          "light": {
+            "value": "#f2eae2"
+          }
+        }
+      },
+      "neutral": {
+        "lightest": {
+          "value": "#ffffff"
+        },
+        "dark": {
+          "value": "#6c7289"
+        },
+        "darker": {
+          "value": "#1a4032"
+        },
+        "darkest": {
+          "value": "#000000"
+        }
+      }
+    }
+  }
+}

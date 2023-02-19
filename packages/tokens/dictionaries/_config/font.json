@@ -1,0 +1,63 @@
+{
+  "config": {
+    "font": {
+      "family": {
+        "sans": {
+          "value": "'Montserrat', sans-serif"
+        },
+        "serif": {
+          "value": "'Fraunces', serif"
+        }
+      },
+      "style": {
+        "normal": {
+          "value": "normal"
+        }
+      },
+      "weight": {
+        "regular": {
+          "value": "500"
+        },
+        "bold": {
+          "value": "700"
+        }
+      },
+      "height": {
+        "100": {
+          "value": "1.463rem"
+        },
+        "200": {
+          "value": "1.7rem"
+        },
+        "300": {
+          "value": "2.3rem"
+        },
+        "400": {
+          "value": "3.2rem"
+        }
+      },
+      "size": {
+        "100": {
+          "value": "1.2rem"
+        },
+        "200": {
+          "value": "1.3rem"
+        },
+        "300": {
+          "value": "1.4rem"
+        },
+        "400": {
+          "value": "3.2rem"
+        }
+      },
+      "space": {
+        "100": {
+          "value": "0.1rem"
+        },
+        "200": {
+          "value": "0.5rem"
+        }
+      }
+    }
+  }
+}
