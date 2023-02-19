@@ -1,0 +1,10 @@
+{
+  "border": {
+    "100": {
+      "value": "{config.space.100.value}"
+    },
+    "200": {
+      "value": "{config.space.200.value}"
+    }
+  }
+}

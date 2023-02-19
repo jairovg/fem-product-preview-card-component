@@ -1,0 +1,22 @@
+{
+  "offset": {
+    "100": {
+      "value": "{config.space.300.value}"
+    },
+    "200": {
+      "value": "{config.space.400.value}"
+    },
+    "300": {
+      "value": "{config.space.500.value}"
+    },
+    "400": {
+      "value": "{config.space.600.value}"
+    },
+    "500": {
+      "value": "{config.space.700.value}"
+    },
+    "600": {
+      "value": "{config.space.800.value}"
+    }
+  }
+}
