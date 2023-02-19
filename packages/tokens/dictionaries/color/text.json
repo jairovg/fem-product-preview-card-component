@@ -1,0 +1,15 @@
+{
+  "color": {
+    "text": {
+      "primary": {
+        "value": "{config.color.neutral.dark.value}"
+      },
+      "secondary": {
+        "value": "{config.color.neutral.darkest.value}"
+      },
+      "tertiary": {
+        "value": "{config.color.primary.cyan.dark.value}"
+      }
+    }
+  }
+}
