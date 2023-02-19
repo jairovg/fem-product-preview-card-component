@@ -1,0 +1,38 @@
+{
+  "text": {
+    "button": {
+      "primary": {
+        "family": {
+          "property": "font-family",
+          "value": "{config.font.family.sans.value}",
+          "mixin": true
+        },
+        "style": {
+          "property": "font-style",
+          "value": "{config.font.style.normal.value}",
+          "mixin": true
+        },
+        "weight": {
+          "property": "font-weight",
+          "value": "{config.font.weight.bold.value}",
+          "mixin": true
+        },
+        "height": {
+          "property": "line-height",
+          "value": "{config.font.height.200.value}",
+          "mixin": true
+        },
+        "size": {
+          "property": "font-size",
+          "value": "{config.font.size.300.value}",
+          "mixin": true
+        },
+        "space": {
+          "property": "letter-spacing",
+          "value": "{config.font.space.100.value}",
+          "mixin": true
+        }
+      }
+    }
+  }
+}
