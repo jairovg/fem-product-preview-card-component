@@ -1,0 +1,13 @@
+{
+  "color": {
+    "fill": {
+      "icon": {
+        "primary": {
+          "rest": {
+            "value": "{config.color.neutral.lightest.value}"
+          }
+        }
+      }
+    }
+  }
+}
