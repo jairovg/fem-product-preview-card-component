@@ -1,0 +1,49 @@
+{
+  "color": {
+    "text": {
+      "button": {
+        "primary": {
+          "rest": {
+            "value": "{config.color.neutral.lightest.value}"
+          },
+          "active": {
+            "value": "{config.color.neutral.lightest.value}"
+          },
+          "focus": {
+            "value": "{config.color.neutral.lightest.value}"
+          }
+        }
+      }
+    },
+    "background": {
+      "button": {
+        "primary": {
+          "rest": {
+            "value": "{config.color.primary.cyan.dark.value}"
+          },
+          "active": {
+            "value": "{config.color.neutral.darker.value}"
+          },
+          "focus": {
+            "value": "{config.color.neutral.darker.value}"
+          }
+        }
+      }
+    },
+    "border": {
+      "button": {
+        "primary": {
+          "rest": {
+            "value": "{config.color.primary.cyan.dark.value}"
+          },
+          "active": {
+            "value": "{config.color.primary.cyan.dark.value}"
+          },
+          "focus": {
+            "value": "{config.color.primary.cyan.dark.value}"
+          }
+        }
+      }
+    }
+  }
+}
